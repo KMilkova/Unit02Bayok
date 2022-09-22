@@ -11,7 +11,7 @@ public class Task08 {
 		System.out.println("x\tf(x)");
 
 		
-		for	(double x = a; x<b;x+=h) {
+		for	(double x = a; x<=b;x+=h) {
 			fx = 2*Math.tan(x/2)+1;
 			System.out.println(x + "\t" + fx);
 		}
